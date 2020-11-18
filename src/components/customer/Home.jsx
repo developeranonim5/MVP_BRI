@@ -1,8 +1,6 @@
 import {React} from 'react';
-
 import { Navbar, Jumbotron, Container, Card,}
 from 'react-bootstrap';
-
 const Home =()=>{  
     return (
 <>
@@ -31,8 +29,8 @@ const Home =()=>{
         of the card's content.
       </Card.Text>
     </Card.Body>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign In</button>
+    <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Sign In</button>
       </div>
   </Card>
 
@@ -47,8 +45,8 @@ const Home =()=>{
         of the card's content.
       </Card.Text>
     </Card.Body>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>
+    <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Sign Up</button>
       </div>
   </Card>
     </div>
