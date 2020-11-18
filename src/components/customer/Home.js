@@ -1,13 +1,11 @@
 import {React} from 'react';
 
-import { Navbar, Jumbotron, Container, Card}
+import { Navbar, Jumbotron, Container, Card,}
 from 'react-bootstrap';
 
-const Home =()=>{
-    
+const Home =()=>{  
     return (
 <>
-
 <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">BANK BRI</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,10 +19,10 @@ const Home =()=>{
   </Container>
 </Jumbotron>
 
-<div class="container ">
-  <div class="row ">
-    <div class="col-sm ">
-    <Card   border="primary" style={{ width: '18rem' }}>
+<div className="container">
+  <div className="row ">
+    <div className="col-sm ">
+    <Card   border="primary" style={{ width: '25rem' }}>
     <Card.Header>Header</Card.Header>
     <Card.Body>
       <Card.Title>Primary Card Title</Card.Title>
@@ -33,12 +31,14 @@ const Home =()=>{
         of the card's content.
       </Card.Text>
     </Card.Body>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign In</button>
+      </div>
   </Card>
 
     </div>
-    <div class="col-sm ">
-
-    <Card border="secondary" style={{ width: '18rem' }}>
+    <div className="col-sm ">
+    <Card border="secondary" style={{ width: '25rem' }}>
     <Card.Header>Header</Card.Header>
     <Card.Body>
       <Card.Title>Secondary Card Title</Card.Title>
@@ -47,10 +47,11 @@ const Home =()=>{
         of the card's content.
       </Card.Text>
     </Card.Body>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Sign Up</button>
+      </div>
   </Card>
-
     </div>
-
   </div>
 </div>
 </>
