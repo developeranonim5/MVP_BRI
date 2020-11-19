@@ -26,6 +26,9 @@ align-items: center;
 h1{
 color: #FEFFFF;
 }
+h5{
+  text-align: center;
+}
 
 .Home-h1{
    font-size: 45px;
@@ -75,4 +78,22 @@ color:#FEFFFF;
 .Image-Signin{
   height: 320px;
 }
+
+/*Homepage CS*/
+.card{
+  margin-top: -120px;
+}
+
+.Card-Profcs{
+  height: 100px;
+}
+
+.Card-Complain{
+  height: 100px;
+}
+
+.Card-History{
+  height: 100px;
+}
+
   
