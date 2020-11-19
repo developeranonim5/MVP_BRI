@@ -1,5 +1,5 @@
 import {React} from 'react';
-import { Navbar, Jumbotron, Container,Row} from 'react-bootstrap';
+import { Navbar, Jumbotron, Container,Row, Button} from 'react-bootstrap';
 import Complain from '../images/create-complain.svg';
 import History from '../images/history-complain.svg';
 import Logo from '../images/Logo-BRI.png';
@@ -10,14 +10,19 @@ const HomeCustomer =()=>{
     return(
 <>
 <Container fluid  >
-  <Row>
+<Navbar className="bg-light justify-content-between">
+<Row >
+  <col-12>
   <Navbar bg="light" expand="lg" >
-  <Navbar.Brand href="#home" > <img className="Image-Logo" src={Logo}/></Navbar.Brand>
+  <Navbar.Brand href="#home" ><img className="Image-Logo" src={Logo}/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
   </Navbar.Collapse>
 </Navbar>
-  </Row>
+  </col-12>
+</Row>
+<Button type="button">Sign Out</Button>
+</Navbar>
 </Container>
 
 <Jumbotron fluid className="Backgroundjumbo" style={{backgroundColor: "#20639b"}}>
@@ -28,20 +33,20 @@ const HomeCustomer =()=>{
   </Container>
 </Jumbotron>
 
-<div class="container">
-  <div class="card-container">
+<div class="card-deck">
+  <div class="card">
     <img img button type="button" className="Card-Profcs" src={Profcs}/>
     <div class="card-body">
       <h5 class="card-title">Data Profile</h5>
       </div>
   </div>
-  <div class="card-container">
+  <div class="card">
   <img button type="button" className="Card-Complain" src={Complain}/>
     <div class="card-body">
       <h5 class="card-title">Create Complain</h5>
       </div>
   </div>
-  <div class="card-container">
+  <div class="card">
   <img img button type="button" className="Card-History" src={History}/>
     <div class="card-body">
       <h5 class="card-title">History Complaint</h5>
