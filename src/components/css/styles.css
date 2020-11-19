@@ -19,12 +19,15 @@ height: 130px;
 }
 
 .TwoCardContainer{
-    margin-top: -90px;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
 }
 h1{
 color: #FEFFFF;
+}
+h5{
+  text-align: center;
 }
 
 .Home-h1{
@@ -76,10 +79,54 @@ color:#FEFFFF;
   height: 320px;
 }
 
+
 .footer {
   position:absolute;
   left:0;
   bottom:0;
   right:0;
 }
+/*Homepage CS*/
+.card{
+  margin-top: -120px;
+}
+
+.Card-Profcs{
+  height: 100px;
+}
+
+.Card-Complain{
+  height: 100px;
+}
+
+.Card-History{
+  height: 100px;
+}
+
   
+/*home spv*/
+.card{
+  margin-top: -120px;
+}
+
+.Card-DataCS{
+  height: 150px;
+
+  }
+.Card-AddCS{
+      height: 150px;
+  }
+.Card-His_Comp{
+    height: 150px;
+}
+h5{
+  text-align: center;
+}
+
+/*Data CS*/
+/* DataCS*/
+.th, tr {
+  text-align: center;
+  color: #20639b;
+
+}

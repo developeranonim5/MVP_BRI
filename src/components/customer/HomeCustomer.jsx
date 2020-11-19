@@ -27,9 +27,9 @@ const HomeCustomer =()=>{
 </Navbar>
 </Container>
 
-<Jumbotron fluid className="Backgroundjumbo">
+<Jumbotron fluid className="Backgroundjumbo" style={{backgroundColor: "#20639b"}}>
   <Container >
-    <h1 className="text-center Home-h1 mb-3 ">Welcome, "customer name"</h1>
+    <h1 className="text-center Home-h1">Welcome, "customer name"</h1>
     <p className="text-center Paraf-p"> We love questions and feedback - and we're alwasys  <br></br>
  happy to help! Here are some ways to connect to us. </p>
   </Container>
@@ -57,11 +57,10 @@ const HomeCustomer =()=>{
     </div>
   </div>
 </div>
-<footer className="page-footer font-small pt-4">
+<footer className="page-footer font-small pt-4 footer">
   <div className="footer-copyright text-center py-3">© 2020 Copyright by UGM FE BE 05
   </div>
 </footer>
-
 </>
 
     )

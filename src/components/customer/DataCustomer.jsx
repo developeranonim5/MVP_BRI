@@ -61,6 +61,17 @@ const DataCustomer =()=>{
     <Form.Control type="text" placeholder="No. HP" />
   </Form.Group> 
 
+  <Form.Control type="text" placeholder="Full Name" />
+  <br />
+  <Form.Control type="number" placeholder="ID KTP" />
+  <br />
+  <Form.Control type="number" placeholder="No Rekening"  />
+  <br />
+  <Form.Control type="tel" placeholder="Phone Number"  />
+  <br />
+  <Button  variant="secondary">Save</Button>
+
+</Form.Group>
   <Form.Group controlId="formBasicUsername">
     <Form.Control type="text" placeholder="No Rekening" />
   </Form.Group>
