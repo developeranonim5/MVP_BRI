@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
 import {React} from 'react';
 import { Navbar, Jumbotron, Container,Row, Button, Col, Modal, Form} from 'react-bootstrap';
-import Signin2 from '../images/signin.svg';
+import createComplain from '../images/create-complain.svg';
 import Logo from '../images/Logo-BRI.png';
 import "../css/styles.css";
 
-const Login = () => {
+const CreateComplaint =()=>{
     return (
 <>
 <Container fluid>
@@ -20,7 +20,7 @@ const Login = () => {
     </Navbar>
   </col-12>
 </Row>
-  <Button type="submit" className="mr-5">Sign Up</Button>
+  <Button type="submit" className="mr-5">Home</Button>
 </Navbar>
 </Container>
 
@@ -28,37 +28,42 @@ const Login = () => {
   <Container>
   <Row >
     <Col>
-    <img className="Image-Signin" src={Signin2}/>
+    <img className="Image-Signin" src={createComplain}/>
     </Col>
 
     <Col > 
 <Modal.Dialog className="ModalSignup">
   <Modal.Header >
-    <Modal.Title >Form Sign In</Modal.Title>
+    <Modal.Title >Create New Complaint</Modal.Title>
   </Modal.Header>
   <Modal.Body>
   <Form>
 
   <Form.Group controlId="formBasicUsername">
-    <Form.Control type="username" placeholder="Username" />
+  <Form.Label>Title :</Form.Label>
+    <Form.Control type="text" placeholder="Title" />
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
-    <Form.Control type="password" placeholder="Password" />
+  <Form.Group controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Description :</Form.Label>
+    <Form.Control as="textarea" rows={3} placeholder="Enter description..." />
   </Form.Group>
 
-  <Button variant="primary" type="submit">
-    Sign In
+    <Form.Group id="formcheck-api-regular">
+      <Form.File.Input />
+    </Form.Group> 
+
+  <Button variant="primary" type="submit" className="mr-auto">
+    Submit
   </Button>
 
-</Form>
+    </Form>
   </Modal.Body>
-</Modal.Dialog>
+    </Modal.Dialog>
     </Col>
   </Row>
   </Container>
 </Jumbotron>
-
 <footer className="page-footer font-small">
   <div className="footer-copyright text-center py-3">© 2020 Copyright by UGM FE BE 05
   </div>
@@ -68,4 +73,4 @@ const Login = () => {
     )
 }
 
-export default Login
+export default CreateComplaint

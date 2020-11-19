@@ -19,8 +19,8 @@ height: 130px;
 }
 
 .TwoCardContainer{
-margin-top: -90px;
-align-items: center;
+    margin-top: -90px;
+    align-items: center;
     justify-content: center;
 }
 h1{
@@ -74,5 +74,12 @@ color:#FEFFFF;
 /* Login from Sign up */
 .Image-Signin{
   height: 320px;
+}
+
+.footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  right:0;
 }
   
