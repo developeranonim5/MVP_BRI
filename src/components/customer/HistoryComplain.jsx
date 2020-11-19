@@ -50,84 +50,110 @@ const History =()=>{
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>
+        <>
+          <Button href="#">Detail</Button> 
+        </>
+      </td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     <tr>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
+    <td><>
+          <Button href="#">Detail</Button> 
+        </></td>
     </tr>
     
   </tbody>
