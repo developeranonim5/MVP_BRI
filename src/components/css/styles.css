@@ -97,3 +97,29 @@ color:#FEFFFF;
 }
 
   
+/*home spv*/
+.card{
+  margin-top: -120px;
+}
+
+.Card-DataCS{
+  height: 150px;
+
+  }
+.Card-AddCS{
+      height: 150px;
+  }
+.Card-His_Comp{
+    height: 150px;
+}
+h5{
+  text-align: center;
+}
+
+/*Data CS*/
+/* DataCS*/
+.th, tr {
+  text-align: center;
+  color: #20639b;
+
+}
