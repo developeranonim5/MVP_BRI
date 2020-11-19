@@ -1,0 +1,53 @@
+.Backgroundjumbo{
+background-color:#20639b ;
+height: 305px;
+}
+
+.Image-Logo{
+    height: 50px;
+}
+
+.Card-Signin{
+height: 130px;
+}
+
+.Card-Signout{
+    height: 130px;
+}
+
+.TwoCardContainer{
+margin-top: -80px;
+}
+h1{
+color: white;
+}
+
+.Home-h1{
+   font-size: 40px;
+}
+
+.Paraf-p{
+font-size: 30px;
+color: white;
+}
+
+/* Login */
+.Backgroundjumbo2{
+    height: 500px;
+    }
+
+  .ModalSignup{
+    margin-top: -80px;
+    height: 160px;
+  }  
+
+  .Image-Signout{
+    height: 400px;
+}
+
+/* Login from Sign up */
+.Image-Signin{
+  height: 320px;
+}
+
+  
