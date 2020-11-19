@@ -21,6 +21,9 @@ margin-top: -80px;
 h1{
 color: white;
 }
+h5{
+  text-align: center;
+}
 
 .Home-h1{
    font-size: 40px;
@@ -49,5 +52,24 @@ color: white;
 .Image-Signin{
   height: 320px;
 }
+
+/*Homepage CS*/
+.card-container{
+  margin-top: -120px;
+}
+
+.Card-Profcs{
+  height: 100px;
+}
+
+.Card-Complain{
+  height: 100px;
+}
+
+.Card-History{
+  height: 100px;
+}
+
+
 
   
