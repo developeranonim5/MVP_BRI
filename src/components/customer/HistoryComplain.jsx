@@ -26,11 +26,11 @@ const History =()=>{
 </Container>
 
 
-<div>
-  <h1>
-    Example heading <Badge variant="secondary">History Complaint</Badge>
-  </h1>
-</div>
+<Container>
+  <Navbar expand="xl" variant="dark" bg="dark" fa-align-justify >
+    <Navbar.Brand href="#">History Complaint</Navbar.Brand>
+  </Navbar>
+</Container>
 
 
   <Container >
