@@ -8,23 +8,23 @@ import "../css/styles.css";
 const Login =()=>{
     return (
 <>
-<Container fluid  >
-<Navbar className="bg-light justify-content-between">
+<Container fluid>
+<Navbar className="justify-content-between" style={{backgroundColor: "#FEFFFF"}}>
 <Row >
   <col-12>
-  <Navbar bg="light" expand="lg" >
-  <Navbar.Brand href="#home" ><img className="Image-Logo" src={Logo}/></Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-  </Navbar.Collapse>
-</Navbar>
+  <Navbar expand="lg" sticky="top" style={{backgroundColor: "#FEFFFF"}}>
+    <Navbar.Brand href="#home" > <img className="d-inline-block align-top ml-5" width="220"
+        height="50" src={Logo}/></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav">  
+    </Navbar.Toggle>
+    </Navbar>
   </col-12>
 </Row>
-<Button type="submit">Sign Up</Button>
+  <Button type="submit" className="mr-5">Sign Up</Button>
 </Navbar>
 </Container>
 
-<Jumbotron fluid className="Backgroundjumbo2">
+<Jumbotron fluid className="pattern">
   <Container>
   <Row >
     <Col>
