@@ -1,5 +1,5 @@
 import React, {Component}  from 'react';
-import { Navbar,Container, Row, Table, Button, Modal, Col, Form} from 'react-bootstrap';
+import { Navbar,Container, Row, Table, Button, Modal, Col, Form, Badge} from 'react-bootstrap';
 import BootstrapTable from 'react-bootstrap-table-next';  
 import axios from 'axios';  
 import Logo from '../images/Logo-BRI.png';
@@ -24,6 +24,13 @@ const History =()=>{
 <Button type="submit">Home</Button>
 </Navbar>
 </Container>
+
+
+<div>
+  <h1>
+    Example heading <Badge variant="secondary">History Complaint</Badge>
+  </h1>
+</div>
 
 
   <Container >
