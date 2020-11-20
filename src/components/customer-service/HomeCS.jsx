@@ -3,7 +3,7 @@ import {React} from 'react';
 import { Row, Button, Navbar, Jumbotron, Container} from 'react-bootstrap';
 import Logo from '../images/Logo-BRI.png';
 import profil from '../images/profile.svg';
-import createComplain from '../images/create-complain.svg';
+import complainAssign from '../images/complain-assignme.svg';
 import historyComplain from '../images/history-complain.svg';
 import "../css/styles.css";
 
@@ -29,9 +29,8 @@ const HomeCustomer =()=>{
 
 <Jumbotron fluid className="Backgroundjumbo" style={{backgroundColor: "#20639b"}}>
   <Container >
-    <h1 className="text-center Home-h1">Welcome, "customer name"</h1>
-    <p className="text-center Paraf-p"> We love questions and feedback - and we're alwasys  <br></br>
- happy to help! Here are some ways to connect to us. </p>
+    <h1 className="text-center Home-h1">Welcome, "CS name"</h1>
+    
   </Container>
 </Jumbotron>
 
@@ -40,19 +39,19 @@ const HomeCustomer =()=>{
     <div className="col-lg-4">
     <div class="card shadow" >
     <img className="Card-Signin mt-4" src={profil}/>
-    <h2 class="text-center mt-4 text-card">Data Profile</h2>
-    </div>
-    </div>
-    <div className="col-lg-4">
-    <div class="card shadow" >
-    <img className="Card-Signout mt-4"src={createComplain}/>
-    <h2 class="text-center mt-4 text-card">Create Complaint</h2>
+    <h3 class="text-center mt-4 text-card">Data Profile</h3>
     </div>
     </div>
     <div className="col-lg-4">
     <div class="card shadow" >
     <img className="Card-Signout mt-4"src={historyComplain}/>
-    <h2 class="text-center mt-4 text-card">History Complaint</h2>
+    <h3 class="text-center mt-4 text-card">Data Complaint</h3>
+    </div>
+    </div>
+    <div className="col-lg-4">
+    <div class="card shadow" >
+    <img className="Card-Signout mt-4"src={complainAssign}/>
+    <h3 class="text-center mt-4 text-card">Complaint Assign me</h3>
     </div>
     </div>
   </div>
