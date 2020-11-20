@@ -1,15 +1,16 @@
 /* eslint-disable jsx-a11y/alt-text */
 import {React} from 'react';
-import { Navbar, Jumbotron, Container, Card} from 'react-bootstrap';
+import { Navbar, Jumbotron, Container} from 'react-bootstrap';
 import Logo from '../images/Logo-BRI.png';
 import Signin from '../images/signin.svg';
 import Signup from '../images/signup.svg';
+import history from './../../history';
 import "../css/styles.css";
 
-const Home =()=>{  
+const Home = () => {
     return (
- 
 <>
+
 <Container fluid>
   <Navbar expand="lg" sticky="top" style={{backgroundColor: "#FEFFFF"}}>
     <Navbar.Brand href="#home" > <img className="d-inline-block align-top ml-5" width="220"
@@ -25,24 +26,28 @@ const Home =()=>{
  happy to help! Here are some ways to connect to us. </p>
   </Container>
 </Jumbotron>
-
+      
 <div className="container">
   <div className="row TwoCardContainer ">
     <div className="col-lg-5">
-    <div class="card shadow" >
+
+    <div className="card shadow">
     <img className="Card-Signin mt-4" src={Signin}/>
-    <h2 class="text-center mt-4 text-card">Sign In</h2>
+    <h2 className="text-center mt-4 text-card" onClick={() => history.push('/Login')}>Sign In</h2>
     </div>
+ 
     </div>
     <div className="col-lg-5">
-    <div class="card shadow" >
-    <img className="Card-Signout mt-4"src={Signup}/>
-    <h2 class="text-center mt-4 text-card">Sign Up</h2>
+    <div className="card shadow" >
+    <img className="Card-Signout mt-4" src={Signup}/>
+    <h2 className="text-center mt-4 text-card" onClick={() => history.push('/Registration')}>Sign Up</h2>
     </div>
+ 
     </div>
   </div>
+
 </div>
-<footer className="page-footer font-small pt-4">
+<footer className="page-footer font-small footer">
   <div className="footer-copyright text-center py-3">© 2020 Copyright by UGM FE BE 05
   </div>
 </footer>

@@ -1,64 +1,66 @@
+/* eslint-disable jsx-a11y/alt-text */
 import {React} from 'react';
-import { Navbar, Jumbotron, Container,Row, Button} from 'react-bootstrap';
-import Complain from '../images/create-complain.svg';
-import History from '../images/history-complain.svg';
+import { Row, Button, Navbar, Jumbotron, Container} from 'react-bootstrap';
 import Logo from '../images/Logo-BRI.png';
-import Profcs from '../images/profile.svg';
+import profil from '../images/profile.svg';
+import createComplain from '../images/create-complain.svg';
+import historyComplain from '../images/history-complain.svg';
 import "../css/styles.css";
 
-const HomeCustomer =()=>{
-    return(
+const HomeCustomer =()=>{  
+    return (
+ 
 <>
-<Container fluid  >
-<Navbar className="bg-light justify-content-between">
+<Container fluid>
+<Navbar className="justify-content-between" style={{backgroundColor: "#FEFFFF"}}>
 <Row >
   <col-12>
-  <Navbar bg="light" expand="lg" >
-  <Navbar.Brand href="#home" ><img className="Image-Logo" src={Logo}/></Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-  </Navbar.Collapse>
-</Navbar>
+  <Navbar expand="lg" sticky="top" style={{backgroundColor: "#FEFFFF"}}>
+    <Navbar.Brand href="#home" > <img className="d-inline-block align-top ml-5" width="220"
+        height="50" src={Logo}/></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav">  
+    </Navbar.Toggle>
+    </Navbar>
   </col-12>
 </Row>
-<Button type="button">Sign Out</Button>
+  <Button variant="outline-primary" type="submit" className="mr-5">Sign Out</Button>
 </Navbar>
 </Container>
 
 <Jumbotron fluid className="Backgroundjumbo" style={{backgroundColor: "#20639b"}}>
   <Container >
-    <h1 className="text-center Home-h1">Welcome, </h1>
+    <h1 className="text-center Home-h1">Welcome, "customer name"</h1>
     <p className="text-center Paraf-p"> We love questions and feedback - and we're alwasys  <br></br>
  happy to help! Here are some ways to connect to us. </p>
   </Container>
 </Jumbotron>
 
-<div class="card-deck">
-  <div class="card">
-    <img img button type="button" className="Card-Profcs" src={Profcs}/>
-    <div class="card-body">
-      <h5 class="card-title">Data Profile</h5>
-      </div>
-  </div>
-  <div class="card">
-  <img button type="button" className="Card-Complain" src={Complain}/>
-    <div class="card-body">
-      <h5 class="card-title">Create Complain</h5>
-      </div>
-  </div>
-  <div class="card">
-  <img img button type="button" className="Card-History" src={History}/>
-    <div class="card-body">
-      <h5 class="card-title">History Complaint</h5>
-      </div>
+<div className="container">
+  <div className="row TwoCardContainer ">
+    <div className="col-lg-4">
+    <div className="card shadow" >
+    <img className="Card-Signin mt-4" src={profil}/>
+    <h2 className="text-center mt-4 text-card">Data Profile</h2>
+    </div>
+    </div>
+    <div className="col-lg-4">
+    <div className="card shadow" >
+    <img className="Card-Signout mt-4"src={createComplain}/>
+    <h2 class="text-center mt-4 text-card">Create Complaint</h2>
+    </div>
+    </div>
+    <div className="col-lg-4">
+    <div class="card shadow" >
+    <img className="Card-Signout mt-4"src={historyComplain}/>
+    <h2 class="text-center mt-4 text-card">History Complaint</h2>
+    </div>
+    </div>
   </div>
 </div>
-
-<footer className="page-footer font-small pt-4">
+<footer className="page-footer font-small pt-4 footer">
   <div className="footer-copyright text-center py-3">© 2020 Copyright by UGM FE BE 05
   </div>
 </footer>
-
 </>
 
     )
