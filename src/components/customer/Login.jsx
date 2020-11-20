@@ -5,6 +5,7 @@ import Signin2 from '../images/signin.svg';
 import Logo from '../images/Logo-BRI.png';
 import "../css/styles.css";
 
+
 const Login = () => {
     return (
 <>
@@ -20,7 +21,7 @@ const Login = () => {
     </Navbar>
   </col-12>
 </Row>
-  <Button type="submit" className="mr-5">Sign Up</Button>
+  <Button type="submit" className="mr-5" >Sign Up</Button>
 </Navbar>
 </Container>
 

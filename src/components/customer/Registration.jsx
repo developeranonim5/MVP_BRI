@@ -5,7 +5,7 @@ import { Navbar, Jumbotron, Container, Row, Button, Col, Modal, Form} from 'reac
 import Signup2 from '../images/signup.svg';
 import Logo from '../images/Logo-BRI.png';
 import "../css/styles.css";
-
+import history from './../../history';
 
 const Registartion =()=>{
     return (
@@ -51,7 +51,7 @@ const Registartion =()=>{
         <Form.Group controlId="formBasicPassword">
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit"  onClick={() => history.push('/DataCustomer')}>
           Sign Up
         </Button>
           </Form>
