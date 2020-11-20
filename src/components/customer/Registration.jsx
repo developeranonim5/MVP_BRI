@@ -5,7 +5,7 @@ import { Navbar, Jumbotron, Container, Row, Button, Col, Modal, Form} from 'reac
 import Signup2 from '../images/signup.svg';
 import Logo from '../images/Logo-BRI.png';
 import "../css/styles.css";
-
+import history from './../../history';
 
 const Registartion =()=>{
     return (

@@ -4,6 +4,7 @@ import { Navbar, Jumbotron, Container} from 'react-bootstrap';
 import Logo from '../images/Logo-BRI.png';
 import Signin from '../images/signin.svg';
 import Signup from '../images/signup.svg';
+
 import "../css/styles.css";
 import history from './../../History';
 
@@ -30,23 +31,19 @@ const Home = () => {
 <div className="container">
   <div className="row TwoCardHome">
     <div className="col-lg-5">
-
     <div class="card shadow" onClick={() => history.push('/Login')}>
+    <div className="card shadow">
     <img className="Card-Signin mt-4" src={Signin}/>
-    <h2 class="text-center mt-4 text-card">Sign In</h2>
+    <h2 className="text-center mt-4 text-card">Sign In</h2>
     </div>
-
     </div>
     <div className="col-lg-5">
-
     <div class="card shadow" onClick={() => history.push('/Registration')}>
     <img className="Card-Signout mt-4"src={Signup}/>
     <h2 class="text-center mt-4 text-card">Sign Up</h2>
     </div>
-
     </div>
   </div>
-  
 </div>
 <footer class="sticky-footer bg-white mt-5">
         <div class="container my-auto">
@@ -55,7 +52,6 @@ const Home = () => {
           </div>
         </div>
   </footer>
-
 </>
 
     )

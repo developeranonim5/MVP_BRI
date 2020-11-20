@@ -12,6 +12,7 @@ import Registration from "./components/customer/Registration";
 // Routing
 import history from './History';
 
+
 export default class Routes extends Component {
     render() {
         return (

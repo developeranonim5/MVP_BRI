@@ -38,13 +38,13 @@ const HomeCustomer =()=>{
 <div className="container">
   <div className="row TwoCardHomeCustomer">
     <div className="col-lg-4">
-    <div class="card shadow" >
+    <div className="card shadow" >
     <img className="Card-Signin mt-4" src={profil}/>
-    <h2 class="text-center mt-4 text-card">Data Profile</h2>
+    <h2 className="text-center mt-4 text-card">Data Profile</h2>
     </div>
     </div>
     <div className="col-lg-4">
-    <div class="card shadow" >
+    <div className="card shadow" >
     <img className="Card-Signout mt-4"src={createComplain}/>
     <h2 class="text-center mt-4 text-card">Create Complaint</h2>
     </div>

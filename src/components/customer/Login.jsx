@@ -6,6 +6,7 @@ import Logo from '../images/Logo-BRI.png';
 import "../css/styles.css";
 import history from '../../History';
 
+
 const Login = () => {
     return (
 <>
@@ -22,6 +23,7 @@ const Login = () => {
   </col-12>
 </Row>
   <Button type="submit" className="mr-5" onClick={() => history.push('./Registration')}>Sign Up</Button>
+
 </Navbar>
 </Container>
 
