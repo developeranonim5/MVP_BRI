@@ -1,7 +1,5 @@
-import React, {Component}  from 'react';
-import { Navbar,Container, Row, Table, Button, Modal, Col, Form, Badge} from 'react-bootstrap';
-import BootstrapTable from 'react-bootstrap-table-next';  
-import axios from 'axios';  
+import React  from 'react';
+import { Navbar,Container, Row, Button} from 'react-bootstrap'; 
 import Logo from '../images/Logo-BRI.png';
 import "../css/styles.css";
 
@@ -29,7 +27,7 @@ const History =()=>{
   <div className="col-xl-12 col-md-5 mt-5">  
     <div class="card shadow ">
     <div class="card-header py-3">
-    <h3 class="m-0 font-weight-bold text-dark text-center"><i class="fa fa-pen-alt"></i> History Complaint</h3>
+    <h4 class="m-0 font-weight-bold text-dark text-center"><i class="fa fa-pen-alt"></i> Data Complaint Assign by CS-01</h4>
     </div>
     <div class="card-body">
 <table class="table">

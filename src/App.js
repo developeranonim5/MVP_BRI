@@ -1,5 +1,4 @@
 import React from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Routes from './Routes';
@@ -7,9 +6,8 @@ import Routes from './Routes';
 function App() {
   return (
   <div className="App">
-  <Routes />
+      <Routes />
   </div>
   );
 }
-
 export default App;

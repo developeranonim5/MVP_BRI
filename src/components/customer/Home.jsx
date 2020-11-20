@@ -4,8 +4,9 @@ import { Navbar, Jumbotron, Container} from 'react-bootstrap';
 import Logo from '../images/Logo-BRI.png';
 import Signin from '../images/signin.svg';
 import Signup from '../images/signup.svg';
-import history from './../../history';
+
 import "../css/styles.css";
+import history from './../../History';
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
 </Container>
 
 <Jumbotron fluid className="Backgroundjumbo">
-  <Container >
+  <Container>
     <h1 className="text-center Home-h1 mb-3 ">Complain Handling</h1>
     <p className="text-center Paraf-p"> We love questions and feedback - and we're alwasys  <br></br>
  happy to help! Here are some ways to connect to us. </p>
@@ -28,30 +29,29 @@ const Home = () => {
 </Jumbotron>
       
 <div className="container">
-  <div className="row TwoCardContainer ">
+  <div className="row TwoCardHome">
     <div className="col-lg-5">
-
+    <div class="card shadow" onClick={() => history.push('/Login')}>
     <div className="card shadow">
     <img className="Card-Signin mt-4" src={Signin}/>
-    <h2 className="text-center mt-4 text-card" onClick={() => history.push('/Login')}>Sign In</h2>
+    <h2 className="text-center mt-4 text-card">Sign In</h2>
     </div>
- 
     </div>
     <div className="col-lg-5">
-    <div className="card shadow" >
-    <img className="Card-Signout mt-4" src={Signup}/>
-    <h2 className="text-center mt-4 text-card" onClick={() => history.push('/Registration')}>Sign Up</h2>
+    <div class="card shadow" onClick={() => history.push('/Registration')}>
+    <img className="Card-Signout mt-4"src={Signup}/>
+    <h2 class="text-center mt-4 text-card">Sign Up</h2>
     </div>
- 
     </div>
   </div>
-
 </div>
-<footer className="page-footer font-small footer">
-  <div className="footer-copyright text-center py-3">© 2020 Copyright by UGM FE BE 05
-  </div>
-</footer>
-
+<footer class="sticky-footer bg-white mt-5">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; 2020 by UGM FE BE 05 </span>
+          </div>
+        </div>
+  </footer>
 </>
 
     )
