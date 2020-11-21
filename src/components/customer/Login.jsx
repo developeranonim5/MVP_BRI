@@ -4,7 +4,7 @@ import { Navbar, Jumbotron, Container,Row, Button} from 'react-bootstrap';
 import Signin2 from '../images/signin.svg';
 import Logo from '../images/Logo-BRI.png';
 import "../css/styles.css";
-import history from '../../History';
+import history from '../../history';
 
 
 const Login = () => {

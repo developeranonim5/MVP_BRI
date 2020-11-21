@@ -9,6 +9,8 @@
     "axios": "^0.21.0",
     "beauty-stars": "^1.1.0",
     "bootstrap": "^4.5.3",
+    "datatables.net": "^1.10.22",
+    "jquery": "^3.5.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-bootstrap-star-rating": "^3.5.5-alpha.0.3",

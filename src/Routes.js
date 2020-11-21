@@ -10,7 +10,7 @@ import Home from "./components/customer/Home";
 import Registration from "./components/customer/Registration";
 
 // Routing
-import history from './History';
+import history from './history';
 
 
 export default class Routes extends Component {

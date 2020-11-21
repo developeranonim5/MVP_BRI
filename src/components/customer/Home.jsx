@@ -6,12 +6,11 @@ import Signin from '../images/signin.svg';
 import Signup from '../images/signup.svg';
 
 import "../css/styles.css";
-import history from './../../History';
+import history from '../../history';
 
 const Home = () => {
-    return (
+    return(
 <>
-
 <Container fluid>
   <Navbar expand="lg" sticky="top" style={{backgroundColor: "#FEFFFF"}}>
     <Navbar.Brand href="#home" > <img className="d-inline-block align-top ml-5" width="220"
@@ -44,6 +43,7 @@ const Home = () => {
     </div>
     </div>
   </div>
+</div>
 </div>
 <footer class="sticky-footer bg-white mt-5">
         <div class="container my-auto">
