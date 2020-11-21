@@ -1,15 +1,13 @@
 import React from 'react';
-import Home from './components/customer/Home';
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Routes from './Routes';
 
 function App() {
   return (
   <div className="App">
-      <Home></Home>
+      <Routes />
   </div>
   );
 }
-
 export default App;
